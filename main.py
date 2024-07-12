@@ -2,8 +2,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 import pandas as pd
-import networkx as nx
-import matplotlib.pyplot as plt
+
 
 # Ler a matriz de adjacência do arquivo CSV
 df = pd.read_csv('insertcsvhere.csv', index_col=0)
