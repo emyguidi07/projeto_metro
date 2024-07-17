@@ -5,7 +5,7 @@ import pandas as pd
 
 
 # Ler a matriz de adjacência do arquivo CSV
-df = pd.read_csv('insertcsvhere.csv', index_col=0)
+df = pd.read_csv('https://www.dropbox.com/scl/fi/r3zpgcvkmelx58hdkghwk/Grafo-Metro-CR-Matriz-adjacencia.csv?rlkey=9l4en7uxcrr9qodhxcjo04f16&st=bdcnz33t&dl=0', index_col=0)
 
 # Converter o DataFrame para uma matriz numpy
 adj_matrix = df.values
